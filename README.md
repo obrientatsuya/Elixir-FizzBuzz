@@ -1,6 +1,25 @@
 # Elixir-FizzBuzz
-fizzbuzz with elixir :) 
+FizzBuzz with Elixir :)
+Using Pattern matching, Guards and Pipe Controller.
 
+### Creation requirements
+
+- [x] Multiples of 3 replaced by Fizz
+- [x] Multiples of 5 replaced by Buzz
+- [x] Multiples of 3 and 5 replaced by FizzBuzz
+
+### Example
+Input -
+```batch
+[1, 2, 3, 4, 5, 10, 15, 20] 
+```
+Output -
+```batch
+[1, 2, fizz, 4, buzz, buzz, fizzbuzz, buzz]
+```
+<hr>
+
+### Source
 ```javascript
 defmodule ElixirFizz do
  
